@@ -34,6 +34,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :test do
     gem 'cucumber-rails'
+    gem 'database_cleaner'
 end
 
 group :development, :test do
